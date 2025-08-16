@@ -10,10 +10,11 @@
     - <link rel="stylesheet"> enlaza la hoja de estilos CSS.
   -->
   <meta charset="UTF-8">
-  <meta name="description" content="juegos pokemon">
-  <meta name="keywords" content="pokemon, gengar, lapras">
+  <meta name="description" content="cartas pokemon tcg">
+  <!-- Palabras clave para motores de búsqueda (SEO) -->
+  <meta name="keywords" content="pokemon, tcg, cartas, coleccionables">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Tienda PokeGaymer Retro</title>
+  <title>TCG - Tienda PokeGaymer Retro</title>
   <link rel="stylesheet" href="/public/styles.css">
 </head>
 <body>
@@ -30,7 +31,7 @@
     <h1>Tienda PokeGaymer Retro</h1>
     <nav>
       <a href="/src/pages/index.html">Inicio</a>
-      <a href="/src/pages/productos.html">Productos</a>
+      <a href="/src/pages/productos.html">Productos</a>     
       <a href="/src/pages/blog.html">Blog</a>
       <a href="/src/pages/usuario.html">Usuario</a>
       <a href="/src/pages/carrito.html">Carrito</a>
@@ -38,17 +39,28 @@
   </header>
   <!--
     <main> es la sección principal del contenido de la página.
-    Aquí puedes poner información relevante, imágenes, etc.
+    Aquí se muestra el catálogo de cartas TCG.
   -->
   <main>
-    <h2>Bienvenido a la tienda de juegos Pokemon</h2>
-    <p>Descubre los mejores juegos clásicos de pokemon en distintas consolas y plataformas.</p>
+    <h2>Catálogo de Cartas TCG</h2>
+    <div class="productos-lista">
+      <!-- Aquí se mostrarán las cartas TCG -->
+      <div class="producto">
+        <h3>Carta Charizard EX</h3>
+        <p>Precio: $50.000</p>
+      </div>
+      <div class="producto">
+        <h3>Carta Pikachu VMAX</h3>
+        <p>Precio: $40.000</p>
+      </div>
+    </div>
+  <a href="/src/pages/productos.html">Volver</a>
   </main>
   <!--
     <footer> es el pie de página, útil para información de derechos de autor o enlaces adicionales.
   -->
   <footer>
-    <p>&copy; 2025 PokeGaymer Retro</p>
+    <p>&copy; 2025 Tienda PokeGaymer Retro</p>
   </footer>
 </body>
 </html>
